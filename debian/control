@@ -1,0 +1,12 @@
+Source: ros-testing-rmw-dds-common
+Section: misc
+Priority: optional
+Maintainer: Ivan Paunovic <ivanpauno@ekumenlabs.com>
+Build-Depends: debhelper (>= 9.0.0), ros-testing-ament-cmake, ros-testing-ament-cmake-gmock, ros-testing-ament-lint-auto, ros-testing-ament-lint-common, ros-testing-rcpputils, ros-testing-rcutils, ros-testing-rmw, ros-testing-rosidl-default-generators, ros-testing-rosidl-runtime-cpp, ros-testing-ros-workspace, ros-testing-rosidl-typesupport-connext-c, ros-testing-rosidl-typesupport-connext-cpp, ros-testing-rosidl-typesupport-fastrtps-c, ros-testing-rosidl-typesupport-fastrtps-cpp
+Homepage: 
+Standards-Version: 3.9.2
+
+Package: ros-testing-rmw-dds-common
+Architecture: any
+Depends: ${shlibs:Depends}, ${misc:Depends}, ros-testing-rcpputils, ros-testing-rcutils, ros-testing-rmw, ros-testing-rosidl-default-runtime, ros-testing-rosidl-runtime-cpp, ros-testing-ros-workspace
+Description: Define a common interface between DDS implementations of ROS middleware.
